@@ -44,6 +44,8 @@ function diff(arr1, arr2) {
   }
 
   console.log(newArr);
+
+  return newArr;
 }
 
 diff(["andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"])
